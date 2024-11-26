@@ -41,3 +41,15 @@ divTitle.style.color = "#800000";
 divTitle.style.opacity = "0.4";
 divTitle.style.fontFamily = "Monospace";
 divTitle.style.textShadow = "0 0 10px rgba(255, 0, 0, 1), 0 0 35px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.6)";
+
+const divContent = document.querySelector("#content");
+console.log(divContent);
+
+divContent.innerHTML = "Yazılım, elektronik aygıtların belirli bir işi yapmasını sağlayan programların tümüne verilen isimdir. Bir başka deyişle, var olan bir problemi çözmek amacıyla bilgisayar dili kullanılarak oluşturulmuş anlamlı anlatımlar bütünüdür. Yazılım için çeşitli diller mevcuttur. Bunlardan bazıları Pascal, C++ ve Java'dır.";
+divContent.style.textAlign = "right";
+divContent.style.fontSize = "22px";
+divContent.style.padding = "10px";
+divContent.style.backgroundColor = "green";
+divContent.style.color = "white";
+divContent.style.border = "10px solid #173";
+divContent.style.opacity = "0.7";
