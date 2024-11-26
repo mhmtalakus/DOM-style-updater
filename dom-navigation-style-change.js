@@ -33,9 +33,9 @@ console.log(divTitle);
 
 divTitle.innerHTML = "Okuyorum. Hastalık gibi bir şey bu. Elime ne geçerse, gözüm neye değerse okuyorum: dergiler, okul kitapları, ilanlar, sokakta bulduğum kâğıt parçaları, yemek tarifleri, çocuk kitapları. Kâğıda basılmış ne varsa. Dört yaşındayım. Savaş henüz başlamamış.";
 divTitle.style.fontSize = "20px";
-divTitle.style.textAlign = "left";
+divTitle.style.textAlign = "center";
 divTitle.style.padding = "12px";
-divTitle.style.border = "5px solid #FF00FF";
+divTitle.style.border = "5px solid yellow";
 divTitle.style.backgroundColor = "#FF0000";
 divTitle.style.color = "#FFFAFA";
 divTitle.style.opacity = "0.4";
@@ -51,7 +51,7 @@ divContent.style.fontSize = "22px";
 divContent.style.padding = "10px";
 divContent.style.backgroundColor = "green";
 divContent.style.color = "white";
-divContent.style.border = "10px solid #173";
+divContent.style.border = "15px solid #800000";
 divContent.style.opacity = "0.7";
 
 const divFooter = document.querySelector("#footer");
