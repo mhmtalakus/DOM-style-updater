@@ -27,3 +27,17 @@ divHeader.style.backgroundColor = "orange";
 divHeader.style.border = "5px solid #FFF5EE";
 divHeader.style.padding = "10px";
 divHeader.style.textShadow = "0 0 10px rgba(222, 0, 0, 1), 0 0 20px rgba(111, 0, 0, 0.9), 0 0 30px rgba(111, 0, 0, 0.9)";
+
+const divTitle = document.querySelector("#page_title");
+console.log(divTitle);
+
+divTitle.innerHTML = "Okuyorum. Hastalık gibi bir şey bu. Elime ne geçerse, gözüm neye değerse okuyorum: dergiler, okul kitapları, ilanlar, sokakta bulduğum kâğıt parçaları, yemek tarifleri, çocuk kitapları. Kâğıda basılmış ne varsa. Dört yaşındayım. Savaş henüz başlamamış.";
+divTitle.style.fontSize = "20px";
+divTitle.style.textAlign = "left";
+divTitle.style.padding = "12px";
+divTitle.style.border = "5px solid #FF00FF";
+divTitle.style.backgroundColor = "silver";
+divTitle.style.color = "#800000";
+divTitle.style.opacity = "0.4";
+divTitle.style.fontFamily = "Monospace";
+divTitle.style.textShadow = "0 0 10px rgba(255, 0, 0, 1), 0 0 35px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.6)";
