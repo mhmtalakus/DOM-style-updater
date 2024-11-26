@@ -36,8 +36,8 @@ divTitle.style.fontSize = "20px";
 divTitle.style.textAlign = "left";
 divTitle.style.padding = "12px";
 divTitle.style.border = "5px solid #FF00FF";
-divTitle.style.backgroundColor = "silver";
-divTitle.style.color = "#800000";
+divTitle.style.backgroundColor = "#FF0000";
+divTitle.style.color = "#FFFAFA";
 divTitle.style.opacity = "0.4";
 divTitle.style.fontFamily = "Monospace";
 divTitle.style.textShadow = "0 0 10px rgba(255, 0, 0, 1), 0 0 35px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.6)";
@@ -53,3 +53,21 @@ divContent.style.backgroundColor = "green";
 divContent.style.color = "white";
 divContent.style.border = "10px solid #173";
 divContent.style.opacity = "0.7";
+
+const divFooter = document.querySelector("#footer");
+console.log(divFooter);
+
+divFooter.innerHTML = "Just Do It !";
+divFooter.style.display = "flex";
+divFooter.style.justifyContent = "center";
+divFooter.style.alignItems = "center";
+divFooter.style.fontFamily = "Fantasy";
+divFooter.style.height = "300px";
+divFooter.style.fontWeight = "bold";
+divFooter.style.fontSize = "36px";
+divFooter.style.backgroundImage = "url('https://c4.wallpaperflare.com/wallpaper/778/44/20/nba-michael-jordan-basketball-slam-dunk-wallpaper-preview.jpg')"
+divFooter.style.backgroundSize = "cover";
+divFooter.style.backgroundPosition = "auto";
+divFooter.style.color = "silver";
+divFooter.style.opacity = "0.8";
+divFooter.style.textShadow = "0 0 10px rgba(255, 0, 0, 1), 0 0 20px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.6)";
