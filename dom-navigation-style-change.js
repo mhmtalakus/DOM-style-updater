@@ -15,3 +15,15 @@ for(let i = 0; i < divAll.length; i++){
     divAll[i].style.height = "auto";
     divAll[i].style.opacity = "0.5";
 }
+
+const divHeader = document.querySelector("#header");
+console.log(divHeader);
+
+divHeader.innerHTML = " Doğu ve batı teraslarında Antiohos ile tanrı-tanrıça heykellerinin yanı sıra aslan ve kartal heykelleri bulunmaktadır. Batı terasında eşsiz bir aslanlı horoskop yer almaktadır. Aslanın üzerinde 16 ışından oluşan 3 adet yıldız vardır ve bunların Mars, Merkür ve Jüpiter gezegenlerini temsil etmekte olduğu sanılmaktadır. Tarihte bilinen en eski horoskoptur.";
+divHeader.style.textAlign = "left";
+divHeader.style.fontSize = "30px";
+divHeader.style.color = "white";
+divHeader.style.backgroundColor = "orange";
+divHeader.style.border = "5px solid #FFF5EE";
+divHeader.style.padding = "10px";
+divHeader.style.textShadow = "0 0 10px rgba(222, 0, 0, 1), 0 0 20px rgba(111, 0, 0, 0.9), 0 0 30px rgba(111, 0, 0, 0.9)";
